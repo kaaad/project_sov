@@ -36,7 +36,7 @@ export default function ContactSection() {
                 <span className="font-semibold">Address:</span>
                 Goushala,Kathmandu 09, Nepal
               </p>
-              <p className="flex items-center gap-2">
+              <p className="flex items-center gap-2 flex-wrap">
                 <span className="font-semibold">Email:</span>
                 contact.shrinkhalaoverseas@gmail.com
               </p>
