@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Users, Building2, Award } from "lucide-react";
+import { ArrowRight, Users, Building2, Award, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -24,6 +24,15 @@ export default function Hero() {
       {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 mt-0"
+          >
+            <Shield className="h-5 w-5 text-green-400" />
+            <span className="text-sm font-medium">Licensed by Department of Foreign Employment, Nepal • License No. <span className="text-gray-300 font-bold">1603/079/080</span></span>
+          </motion.div>
           <motion.h1 
             className="text-5xl md:text-6xl font-bold text-gray-300 mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -61,10 +70,11 @@ export default function Hero() {
               </Button>
             </Link>
           </motion.div>
+          
 
           {/* Stats */}
           <motion.div 
-            className="grid grid-cols-3 gap-8 mt-16"
+            className="grid grid-cols-3 gap-8 mt-16 mb-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -96,3 +106,7 @@ export default function Hero() {
     </div>
   );
 }
+
+
+
+
