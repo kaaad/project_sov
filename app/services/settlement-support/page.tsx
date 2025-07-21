@@ -5,7 +5,6 @@ import { HomeIcon, MapPin, Phone, Users } from "lucide-react";
 
 export default function SettlementSupportPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,6 +72,5 @@ export default function SettlementSupportPage() {
           </div>
         </motion.div>
       </div>
-    </div>
   );
 }

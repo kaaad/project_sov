@@ -3,10 +3,32 @@
 import { motion } from "framer-motion";
 import { InlineWidget } from "react-calendly";
 import { Calendar } from "lucide-react";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Schedule a Recruitment Meeting | Hire Nepali Workers – Shrinkhala Overseas",
+  description: "European employers can schedule a meeting to hire skilled Nepali workers for construction, caregiving, factory, and hospitality jobs. Discuss your manpower demand today.",
+  openGraph: {
+    title: "Schedule a Recruitment Meeting with Shrinkhala Overseas",
+    type: 'website',
+    siteName: "Shrinkhala Overseas",
+    description: "Book a meeting to submit your manpower demand for skilled Nepali workers. Trusted manpower agency in Nepal for Europe.",
+    url: "https://shrinkhalaoverseas.com/meeting",
+    images: [
+      {
+        url: "https://shrinkhalaoverseas.com/opengraph.png",
+        width: 1200,
+        height: 1200,
+        alt: "Shrinkhala Overseas – Meeting"
+      }
+    ],
+  }
+};
+
 
 export default function ScheduleConsultation() {
   return (
-    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,6 +61,5 @@ export default function ScheduleConsultation() {
           />
         </motion.div>
       </div>
-    </section>
 )
 };

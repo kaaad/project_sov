@@ -1,11 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Building2, Users, Award } from "lucide-react";
+import { Building2, Users } from "lucide-react";
 
 export default function JobPlacementPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -81,6 +80,5 @@ export default function JobPlacementPage() {
           </div>
         </motion.div>
       </div>
-    </div>
   );
 }
