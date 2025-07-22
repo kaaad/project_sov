@@ -1,10 +1,20 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { HeartHandshake, MessageCircle, LifeBuoy, Clock } from "lucide-react";
+import { HeartHandshake, MessageCircle, LifeBuoy, Clock, MoveLeftIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function OngoingSupportPage() {
   return (
+    <>
+      <div className="w-[70%] mx-auto flex items-center justify-between mb-12">
+        <Link href="/services/settlement-support" className="text-blue-500 hover:underline">
+          <Button>
+            <MoveLeftIcon className="inline h-4 w-4" /> Settlement Support 
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -72,5 +82,6 @@ export default function OngoingSupportPage() {
           </div>
         </motion.div>
       </div>
+    </>  
   );
 }

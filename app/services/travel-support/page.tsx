@@ -1,10 +1,25 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Plane, Map, Calendar, Headphones } from "lucide-react";
+import { Plane, Map, Calendar, Headphones, MoveLeftIcon, MoveRightIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function TravelSupportPage() {
   return (
+    <>
+      <div className="w-[70%] mx-auto flex items-center justify-between mb-12">
+        <Link href="/services/documentation" className="text-blue-500 hover:underline">
+          <Button>
+            <MoveLeftIcon className="inline h-4 w-4" /> Documentation 
+          </Button>
+        </Link>
+        <Link href="/services/settlement-support" className="text-blue-500 hover:underline">
+          <Button>
+            Settlement Support <MoveRightIcon className="inline h-4 w-4" />
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -72,5 +87,6 @@ export default function TravelSupportPage() {
           </div>
         </motion.div>
       </div>
+    </>  
   );
 }

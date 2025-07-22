@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const navItems = [
-  { label: "About Us", href: "/#about" },
-  { label: "Services", href: "/#services" },
+  { label: "About Us", href: "/about" },
+  { label: "Services", href: "/services/job-placement" },
   { label: "Process", href: "/#process" },
   { label: "Testimonials", href: "/#testimonials" },
   { label: "Contact Us", href: "/#contact" },
@@ -45,15 +45,16 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <motion.a
-                key={item.label}
-                href={item.href}
-                className="text-primary hover:text-primary/80 transition-colors relative group scroll-smooth"
-                whileHover={{ y: -2 }}
-              >
-                {item.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full" />
-              </motion.a>
+              <Link href={item.href}>
+                <motion.p
+                  key={item.label}
+                  className="text-primary hover:text-primary/80 transition-colors relative group scroll-smooth"
+                  whileHover={{ y: -2 }}
+                >
+                    {item.label}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full" />
+                </motion.p>
+              </Link>
             ))}
           </nav>
 

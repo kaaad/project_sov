@@ -1,10 +1,25 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { FileCheck, ClipboardCheck, FileText, Shield } from "lucide-react";
+import { FileCheck, ClipboardCheck, FileText, Shield, MoveRightIcon, MoveLeftIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function DocumentationPage() {
   return (
+    <>
+      <div className="w-[70%] mx-auto flex items-center justify-between mb-12">
+        <Link href="/services/skills-training" className="text-blue-500 hover:underline">
+          <Button>
+            <MoveLeftIcon className="inline h-4 w-4" /> Skills Training 
+          </Button>
+        </Link>
+        <Link href="/services/travel-support" className="text-blue-500 hover:underline">
+          <Button>
+            Travel Support <MoveRightIcon className="inline h-4 w-4" />
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -74,5 +89,6 @@ export default function DocumentationPage() {
           </div>
         </motion.div>
       </div>
+    </>
   );
 }

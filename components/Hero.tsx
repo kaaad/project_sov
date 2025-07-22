@@ -82,14 +82,14 @@ export default function Hero() {
             <div className="flex items-center gap-3">
               <Users className="h-8 w-8 text-white" />
               <div>
-                <p className="text-3xl font-bold text-white">2000+</p>
+                <p className="text-3xl font-bold text-white">600+</p>
                 <p className="text-gray-300">Placements</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Building2 className="h-8 w-8 text-white" />
               <div>
-                <p className="text-3xl font-bold text-white">50+</p>
+                <p className="text-3xl font-bold text-white">10+</p>
                 <p className="text-gray-300">Partner Companies</p>
               </div>
             </div>

@@ -1,10 +1,20 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Building2, Users } from "lucide-react";
+import { Building2, MoveRightIcon, Users } from "lucide-react";
+import Link from "next/link";
 
 export default function JobPlacementPage() {
   return (
+    <>
+      <div className="w-[70%] mx-auto flex items-center justify-end mb-12">
+        <Link href="/services/skills-training" className="text-blue-500 hover:underline">
+          <Button>
+            Skills Training <MoveRightIcon className="inline h-4 w-4" />
+          </Button>
+        </Link>
+      </div>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,5 +90,6 @@ export default function JobPlacementPage() {
           </div>
         </motion.div>
       </div>
+    </>  
   );
 }
