@@ -22,65 +22,66 @@ import { Jobs } from "@/types";
 const jobs = [
   {
     id: 1,
-    title: "Construction Worker",
-    company: "BuildTech GmbH",
-    location: "Munich, Germany",
+    title: "Construction Worker (Mason, Steel Fixture, Carpenter)",
+    company: "************",
+    location: "Slovenia",
     type: "Full-time",
-    salary: "€2,800 - €3,500/month",
+    salary: "€960/month basic",
     description: "Experienced construction worker needed for commercial building projects.",
     requirements: [
-      "3+ years of construction experience",
+      "1+ years of construction experience",
       "Knowledge of safety regulations",
-      "Basic German language skills",
-      "Physical fitness"
+      "Basic English language skills",
+      "Physical fitness",
+      "Driving license preferred (category B)"
     ],
     benefits: [
       "Health insurance",
-      "Accommodation assistance",
-      "Travel support",
-      "Training opportunities"
+      "Accommodation provided",
+      "Food provided",
+      "Transportation provided"
     ]
   },
   {
     id: 2,
-    title: "Healthcare Assistant",
-    company: "MediCare Plus",
-    location: "Vienna, Austria",
+    title: "Construction Supervisor",
+    company: "*************",
+    location: "Slovenia",
     type: "Full-time",
-    salary: "€2,500 - €3,200/month",
-    description: "Caring healthcare assistant required for elderly care facility.",
+    salary: "€1160/month starting salary",
+    description: "Skilled supervisor needed for overseeing residential construction projects.",
     requirements: [
-      "Healthcare certification",
-      "1+ year experience in elderly care",
-      "Basic German language",
-      "Empathetic nature"
+      "3+ years supervisory experience",
+      "Minimum 3 years of professional experience",
+	    "B-level English proficiency (spoken and written)",
+	    "Valid category B driving license",
+      "Proficiency in English"
     ],
     benefits: [
-      "Comprehensive insurance",
-      "Paid overtime",
-      "Professional development",
-      "Relocation package"
+      "Health insurance",
+      "Accommodation provided",
+      "Food provided",
+      "Transportation provided"
     ]
   },
   {
     id: 3,
-    title: "Industrial Technician",
-    company: "TechnoFab s.r.o.",
-    location: "Bratislava, Slovakia",
+    title: "HOUSEKEEPER.",
+    company: "*************",
+    location: "Slovenia",
     type: "Full-time",
-    salary: "€2,200 - €2,800/month",
-    description: "Skilled technician needed for manufacturing plant maintenance.",
+    salary: "€950/month",
+    description: "Looking for a dedicated housekeeper to maintain cleanliness and order in hotel industry.",
     requirements: [
-      "Technical certification",
-      "2+ years industrial experience",
-      "Equipment maintenance skills",
-      "Team player"
+      "Previous housekeeping experience",
+      "Good Communication Skills",
+      "Fast & Efficient Workers"
     ],
     benefits: [
-      "Performance bonuses",
-      "Housing allowance",
-      "Skills training",
-      "Career growth opportunities"
+      "Health insurance",
+      "Accommodation provided",
+      "Food provided",
+      "Transportation provided"
     ]
   }
 ];

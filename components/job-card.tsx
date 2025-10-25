@@ -31,7 +31,7 @@ export function JobCard({ job, onApply }: JobCardProps) {
             <div>
               <CardTitle className="text-2xl mb-2">{job.title}</CardTitle>
               <CardDescription className="flex items-center gap-2">
-                <Building2 className="h-4 w-4" />
+                <Building2 className="h-4 w-4 blur-lg" />
                 {job.company}
               </CardDescription>
             </div>
