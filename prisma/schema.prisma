@@ -23,3 +23,17 @@ model Contact {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model JobApplication {
+  id String  @id @default(auto()) @map("_id") @db.ObjectId
+  jobId        Int
+  jobTitle     String
+  company      String
+  name         String
+  email        String
+  phone        String
+  experience   String
+  coverLetter  String
+  resumeUrl    String?     // We'll add file uploads later
+  submittedAt  DateTime @default(now())
+}
