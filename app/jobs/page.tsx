@@ -21,6 +21,96 @@ import { Jobs } from "@/types";
 // Sample job data - replace with actual API call
 const jobs = [
   {
+    id: 7,
+    title: "Lathe Operator",
+    company: "************",
+    location: "Romania",
+    type: "Full-time",
+    salary: "€900/month",
+    description: "Experienced lathe operator needed for precision machining, part fabrication, and equipment operation in an industrial workshop.",
+    requirements: [
+      "2+ years of experience operating manual or CNC lathe machines",
+      "Ability to read and interpret technical drawings",
+      "Knowledge of measuring tools (calipers, micrometers, gauges)",
+      "Understanding of machining tolerances and safety procedures",
+      "Basic English communication skills"
+    ],
+    benefits: [
+      "Accommodation provided",
+      "Meals provided",
+      "Relocation bonus after 6 months",
+      "Medical insurance",
+      "Work equipment provided"
+    ]
+  },
+  {
+    id: 6,
+    title: "Auto Mechanic",
+    company: "************",
+    location: "Romania",
+    type: "Full-time",
+    salary: "€800/month",
+    description: "Skilled auto mechanic needed for vehicle diagnostics, repairs, and routine maintenance in a professional workshop environment.",
+    requirements: [
+      "2+ years of auto mechanic experience",
+      "Knowledge of engine repair, electrical systems, and diagnostics",
+      "Ability to use workshop tools and equipment",
+      "Basic English communication skills",
+      "Ability to follow safety and maintenance procedures"
+    ],
+    benefits: [
+      "Accommodation provided",
+      "Meals provided",
+      "Relocation bonus after 6 months",
+      "Medical insurance",
+      "Work equipment provided"
+    ]
+  },
+  {
+    id: 4,
+    title: "Construction Worker",
+    company: "************",
+    location: "Romania",
+    type: "Full-time",
+    salary: "€600/month basic",
+    description: "Experienced construction worker needed for commercial building projects.",
+    requirements: [
+      "1+ years of construction experience",
+      "Knowledge of safety regulations",
+      "Basic English language skills",
+      "Physical fitness",
+    ],
+    benefits: [
+      "Health insurance",
+      "Accommodation provided",
+      "Food provided",
+      "Transportation provided"
+    ]
+  },
+  {
+    id: 5,
+    title: "Housekeeper",
+    company: "************",
+    location: "Romania",
+    type: "Full-time",
+    salary: "€550–€600/month basic",
+    description: "Responsible and detail-oriented housekeeper needed for maintaining cleanliness in residential and hotel facilities.",
+    requirements: [
+      "1+ years of housekeeping or cleaning experience",
+      "Basic English language skills",
+      "Knowledge of cleaning tools and chemicals",
+      "Ability to follow hygiene and safety standards",
+      "Physical fitness and stamina"
+    ],
+    benefits: [
+      "Accommodation provided",
+      "Food provided",
+      "Health insurance",
+      "Uniform provided",
+      "Transportation provided"
+    ]
+  },
+  {
     id: 1,
     title: "Construction Worker (Mason, Steel Fixture, Carpenter)",
     company: "************",
