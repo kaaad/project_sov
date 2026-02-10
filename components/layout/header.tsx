@@ -106,7 +106,7 @@ export function Header() {
                     <Globe className="h-4 w-4 mr-2" />
                     EN
                   </Button>
-                  <Button className="justify-center">Partner With Us</Button>
+                  <Button className="justify-center bg-[#f47622]">Partner With Us</Button>
                 </div>
               </nav>
             </motion.div>

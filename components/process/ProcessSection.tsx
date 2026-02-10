@@ -135,7 +135,7 @@ export default function ProcessSection() {
         {/* Timeline */}
         <div className="relative max-w-5xl mx-auto">
           {/* Vertical Line */}
-          <div className="absolute left-10 top-0 h-full w-1 bg-gradient-to-b from-primary/20 via-primary to-primary/20"></div>
+          <div className="absolute left-10 top-0 h-full w-1 bg-gradient-to-b from-[#0663aa]/20 via-[#0663aa] to-[#0663aa]/20"></div>
 
           {/* Steps */}
           <div className="space-y-24">
@@ -149,7 +149,7 @@ export default function ProcessSection() {
                 className="relative flex items-start pl-16 group"
               >
                 {/* Icon */}
-                <div className="absolute -left-8 w-16 h-16 flex items-center justify-center bg-gradient-to-br from-primary to-primary/80 text-white rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110">
+                <div className="absolute -left-8 w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#f47622]/80 to-[#f47622]/40 text-white rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110">
                   <step.icon className="w-8 h-8" />
                 </div>
 

@@ -60,7 +60,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Link href="/jobs">
-              <Button size="lg" className="bg-primary hover:bg-primary/50">
+              <Button size="lg" className="bg-[#0663aa] hover:bg-primary/50">
                 Find Opportunities <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>

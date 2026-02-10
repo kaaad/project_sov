@@ -78,7 +78,7 @@ export default function Services() {
                     <CardDescription>{service.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <Link href={service.link} className="absolute bottom-0 left-0 right-0 bg-primary text-primary-foreground py-2 text-center transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
+                    <Link href={service.link} className="absolute bottom-0 left-0 right-0 bg-[#f47622] text-primary-foreground py-2 text-center transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
                       Learn More
                     </Link>
                   </CardContent>

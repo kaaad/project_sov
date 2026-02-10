@@ -46,7 +46,7 @@ export default function ContactSection() {
               </p>
               <p className="flex items-center gap-2">
                 <span className="font-semibold">WhatsApp:</span>
-                +977 9867231523 <br />
+                +40 731291693 <br />
                 +977 9768389807
               </p>
               <p className="flex items-center gap-2">
