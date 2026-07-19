@@ -28,9 +28,15 @@ export const metadata: Metadata = {
 
 const JobsLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-24">
-            {children}
-        </div>  
+        <html lang="en">
+          <head>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5852321424840124"
+     crossOrigin="anonymous"></script>
+          </head>
+          <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-24">
+              {children}
+          </div>  
+        </html>
     )
 }
 

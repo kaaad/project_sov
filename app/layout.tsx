@@ -88,6 +88,8 @@ export default function RootLayout({
             })
           }}
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5852321424840124"
+        crossOrigin="anonymous"></script>
       </head>
       <Script id='analytics-src' strategy='afterInteractive' src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <Script id='analytics-code' strategy='afterInteractive'>
